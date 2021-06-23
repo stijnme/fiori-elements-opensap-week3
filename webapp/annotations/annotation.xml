@@ -36,6 +36,24 @@
                         </Record>
                     </Collection>
                 </Annotation>
+                <Annotation Term="UI.Chart">
+                    <Record Type="UI.ChartDefinitionType">
+                        <PropertyValue Property="Title" String="Booking FlightPrice by CarrierID"/>
+                        <PropertyValue Property="Description" String="Booking FlightPrice by CarrierID"/>
+                        <PropertyValue Property="ChartType" EnumMember="UI.ChartType/Column"/>
+                        <PropertyValue Property="Dimensions">
+                            <Collection>
+                                <PropertyPath>CarrierID</PropertyPath>
+                                <PropertyPath>REPLACE_WITH_DIMENSIONS_PROPERTY</PropertyPath>
+                            </Collection>
+                        </PropertyValue>
+                        <PropertyValue Property="Measures">
+                            <Collection>
+                                <PropertyPath>FlightPrice</PropertyPath>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
             </Annotations>
         </Schema>
     </edmx:DataServices>
