@@ -78,6 +78,19 @@
                         </PropertyValue>
                     </Record>
                 </Annotation>
+                <Annotation Term="UI.SelectionFields">
+                    <Collection>
+                        <PropertyPath>CurrencyCode</PropertyPath>
+                        <PropertyPath>AgencyID</PropertyPath>
+                        <PropertyPath>AgencyName</PropertyPath>
+                        <PropertyPath>CarrierID</PropertyPath>
+                        <PropertyPath>CarrierName</PropertyPath>
+                        <PropertyPath>CustomerID</PropertyPath>
+                        <PropertyPath>CustomerName</PropertyPath>
+                        <PropertyPath>BookingDate</PropertyPath>
+                        <PropertyPath>BookingDateYear</PropertyPath>
+                    </Collection>
+                </Annotation>
             </Annotations>
         </Schema>
     </edmx:DataServices>
